@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "random_additions:blocks/white_dandelion",
+    "particle": "random_additions:blocks/white_dandelion"
+  }
+}

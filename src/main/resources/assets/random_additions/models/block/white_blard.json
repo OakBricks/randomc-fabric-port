@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "random_additions:blocks/white_blard",
+    "up": "random_additions:blocks/white_blard",
+    "north": "random_additions:blocks/white_blard",
+    "east": "random_additions:blocks/white_blard",
+    "south": "random_additions:blocks/white_blard",
+    "west": "random_additions:blocks/white_blard",
+    "particle": "random_additions:blocks/white_blard"
+  }
+}

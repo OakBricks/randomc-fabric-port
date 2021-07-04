@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "random_additions:blocks/redwood_planks",
+    "up": "random_additions:blocks/redwood_planks",
+    "north": "random_additions:blocks/redwood_planks",
+    "east": "random_additions:blocks/redwood_planks",
+    "south": "random_additions:blocks/redwood_planks",
+    "west": "random_additions:blocks/redwood_planks",
+    "particle": "random_additions:blocks/redwood_planks"
+  }
+}

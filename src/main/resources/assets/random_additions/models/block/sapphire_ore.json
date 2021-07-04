@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "random_additions:blocks/sapphire_ore",
+    "up": "random_additions:blocks/sapphire_ore",
+    "north": "random_additions:blocks/sapphire_ore",
+    "east": "random_additions:blocks/sapphire_ore",
+    "south": "random_additions:blocks/sapphire_ore",
+    "west": "random_additions:blocks/sapphire_ore",
+    "particle": "random_additions:blocks/sapphire_ore"
+  }
+}

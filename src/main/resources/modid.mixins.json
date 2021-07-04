@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "curseforge.airplane39.randomc.mixin.ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

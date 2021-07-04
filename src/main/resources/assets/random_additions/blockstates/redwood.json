@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "random_additions:block/redwood"
+    },
+    "facing=north": {
+      "model": "random_additions:block/redwood"
+    },
+    "facing=east": {
+      "model": "random_additions:block/redwood",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "random_additions:block/redwood",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "random_additions:block/redwood",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "random_additions:block/redwood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
