@@ -11,7 +11,7 @@ import static curseforge.airplane39.randomc.RandoMC.MOD_ID;
 
 public class ModItems {
 
-    public static final Item TWENTY_TWENTY_ONE_DISC_ITEM = new TwentyTwentyOneDiscItem(4, RandoMCSoundEvents.MUSIC_DISC_2021_SOUND, new Item.Settings().group(RandoMC.ITEM_GROUP));
+    public static final Item TWENTY_TWENTY_ONE_DISC_ITEM = new TwentyTwentyOneDiscItem(4, RandoMCSoundEvents.MUSIC_DISC_2021_SOUND, new Item.Settings().maxCount(1).group(RandoMC.ITEM_GROUP));
 
     //register items
     public static void registerItems() {
