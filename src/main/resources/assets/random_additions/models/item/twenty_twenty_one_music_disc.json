@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "random_additions:items/music_disc_2021"
+  }
+}

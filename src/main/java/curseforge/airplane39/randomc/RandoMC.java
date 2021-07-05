@@ -1,6 +1,7 @@
 package curseforge.airplane39.randomc;
 
 import curseforge.airplane39.randomc.init.ModBlocks;
+import curseforge.airplane39.randomc.init.ModItems;
 import curseforge.airplane39.randomc.worldgen.OreGen;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -27,6 +28,7 @@ public class RandoMC implements ModInitializer {
 
 		OreGen.registerWorldGenFeatures();
 		ModBlocks.registerBlocks();
+		ModItems.registerItems();
 
 		LOGGER.info("RandoMC Fabric was made by OakBricks/EnchantedSpade and airplane39");
 		LOGGER.info("RandoMC has initalized");
