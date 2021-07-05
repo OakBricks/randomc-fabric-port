@@ -1,0 +1,16 @@
+{
+  "group": "random_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    }
+  ],
+  "result": {
+    "item": "random_additions:flour",
+    "count": 4
+  }
+}

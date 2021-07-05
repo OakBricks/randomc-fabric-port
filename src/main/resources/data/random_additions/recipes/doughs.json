@@ -1,0 +1,22 @@
+{
+  "group": "random_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "random_additions:flour"
+    },
+    {
+      "item": "random_additions:flour"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "item": "random_additions:dough",
+    "count": 2
+  }
+}

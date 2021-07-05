@@ -1,0 +1,13 @@
+{
+  "group": "random_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "random_additions:redwood"
+    }
+  ],
+  "result": {
+    "item": "random_additions:redwood_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "group": "random_additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "random_additions:dough"
+    },
+    {
+      "item": "random_additions:dough"
+    },
+    {
+      "item": "random_additions:salt"
+    }
+  ],
+  "result": {
+    "item": "random_additions:pretzel",
+    "count": 2
+  }
+}

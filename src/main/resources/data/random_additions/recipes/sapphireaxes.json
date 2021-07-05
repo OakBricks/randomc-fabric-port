@@ -1,0 +1,30 @@
+{
+  "group": "random_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "random_additions:sapphire"
+    },
+    "1": {
+      "item": "random_additions:sapphire"
+    },
+    "2": {
+      "item": "random_additions:sapphire"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "random_additions:sapphire_axe",
+    "count": 1
+  }
+}

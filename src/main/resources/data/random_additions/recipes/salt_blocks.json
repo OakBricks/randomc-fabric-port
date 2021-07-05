@@ -1,0 +1,42 @@
+{
+  "group": "random_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "random_additions:salt"
+    },
+    "1": {
+      "item": "random_additions:salt"
+    },
+    "2": {
+      "item": "random_additions:salt"
+    },
+    "3": {
+      "item": "random_additions:salt"
+    },
+    "4": {
+      "item": "random_additions:salt"
+    },
+    "5": {
+      "item": "random_additions:salt"
+    },
+    "6": {
+      "item": "random_additions:salt"
+    },
+    "7": {
+      "item": "random_additions:salt"
+    },
+    "8": {
+      "item": "random_additions:salt"
+    }
+  },
+  "result": {
+    "item": "random_additions:salt_block",
+    "count": 1
+  }
+}
