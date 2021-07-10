@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "random_additions:items/white_dandelion2"
+    "layer0": "random_additions:items/white_dandelion"
   }
 }

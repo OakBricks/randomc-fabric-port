@@ -2,15 +2,16 @@
   "schemaVersion": 1,
   "id": "random_additions",
   "version": "${version}",
+  "accessWidener" : "random_additions.accesswidener",
 
   "name": "RandoMC - Refabricated",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Adds random stuff to minecraft (NOW FOR 1.17 FABRIC)",
   "authors": [
     "OakBricks and airplane39"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/OakBricks/randomc-fabric-port",
+    "sources": "https://github.com/OakBricks/randomc-fabric-port"
   },
 
   "license": "GPL-3.0",
@@ -20,6 +21,9 @@
   "entrypoints": {
     "main": [
       "curseforge.airplane39.randomc.RandoMC"
+    ],
+    "client": [
+      "curseforge.airplane39.randomc.RandoMCClient"
     ]
   },
   "mixins": [
@@ -31,8 +35,5 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
