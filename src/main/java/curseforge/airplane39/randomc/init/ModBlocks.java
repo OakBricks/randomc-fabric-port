@@ -1,7 +1,7 @@
 package curseforge.airplane39.randomc.init;
 
 import curseforge.airplane39.randomc.RandoMC;
-import curseforge.airplane39.randomc.block.SaphireOreBlock;
+import curseforge.airplane39.randomc.block.SapphireOreBlock;
 import curseforge.airplane39.randomc.block.WhiteBlardBlock;
 import curseforge.airplane39.randomc.block.WhiteDandelion;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -23,7 +23,7 @@ public class ModBlocks {
 
     public static final WhiteDandelion WHITE_DANDELION = new WhiteDandelion(StatusEffects.SATURATION, 30, AbstractBlock.Settings.of(Material.PLANT).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS));
 
-    public static final Block SAPPHIRE_ORE = new SaphireOreBlock(FabricBlockSettings.of(Material.STONE, MapColor.STONE_GRAY).strength(4.0f, 10.0f).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().sounds(BlockSoundGroup.STONE));
+    public static final Block SAPPHIRE_ORE = new SapphireOreBlock(FabricBlockSettings.of(Material.STONE, MapColor.STONE_GRAY).strength(4.0f, 10.0f).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().sounds(BlockSoundGroup.STONE));
 
     public static final Block WHITE_BLARD = new WhiteBlardBlock(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).strength(4.0f, 10.0f).sounds(BlockSoundGroup.STONE).noCollision());
 

@@ -27,7 +27,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "random_additions.mixins.json"
   ],
 
   "depends": {

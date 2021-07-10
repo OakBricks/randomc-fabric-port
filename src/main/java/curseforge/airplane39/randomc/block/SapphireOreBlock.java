@@ -11,8 +11,8 @@ import net.minecraft.util.math.MathHelper;
 
 import java.util.Random;
 
-public class SaphireOreBlock extends Block {
-    public SaphireOreBlock(Settings settings) {
+public class SapphireOreBlock extends Block {
+    public SapphireOreBlock(Settings settings) {
         super(settings);
     }
 
