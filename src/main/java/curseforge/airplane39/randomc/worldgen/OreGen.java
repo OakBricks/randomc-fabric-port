@@ -30,7 +30,7 @@ public class OreGen {
             .spreadHorizontally()
             .repeat(20); // Number of veins per chunk
     
-    public static ConfiguredFeature<?, ?> WHITE_DANDELION_PATCH = /*register("patch_sunflower", (ConfiguredFeature)*/ Feature.RANDOM_PATCH.configure((new net.minecraft.world.gen.feature.RandomPatchFeatureConfig.Builder(new SimpleBlockStateProvider(WHITE_DANDELION.getDefaultState()), new SimpleBlockPlacer())).tries(64).cannotProject().build()).decorate(ConfiguredFeatures.Decorators.SPREAD_32_ABOVE).decorate(ConfiguredFeatures.Decorators.SQUARE_HEIGHTMAP).repeat(10);
+    public static ConfiguredFeature<?, ?> WHITE_DANDELION_PATCH = /*register("patch_sunflower", (ConfiguredFeature)*/ Feature.RANDOM_PATCH.configure((new net.minecraft.world.gen.feature.RandomPatchFeatureConfig.Builder(new SimpleBlockStateProvider(WHITE_DANDELION.getDefaultState()), new SimpleBlockPlacer())).tries(48).cannotProject().build()).decorate(ConfiguredFeatures.Decorators.SQUARE_TOP_SOLID_HEIGHTMAP).decorate(ConfiguredFeatures.Decorators.SQUARE_HEIGHTMAP).repeat(8);
 
     @SuppressWarnings("deprecation")
     public static void registerWorldGenFeatures() {
