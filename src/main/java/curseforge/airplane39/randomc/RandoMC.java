@@ -34,7 +34,7 @@ public class RandoMC implements ModInitializer {
 
 		LOGGER.debug("Built against Yarn 1.17+build.13, Fabric Loader 0.11.6, Minecraft 1.17, Fabric API 0.36.0+1.17");
 		LOGGER.debug("RandoMC Fabric was made by OakBricks/EnchantedSpade and airplane39");
-		LOGGER.info("please get this mod from offical sources (GitHub, Curse, Modrinth), check out the mod's modmenu page for more info");
-		LOGGER.info("RandoMC has initalized");
+		LOGGER.info("please get this mod from official sources (GitHub, Curse, Modrinth), check out the mod's modmenu page for more info");
+		LOGGER.info("RandoMC has initialized");
 	}
 }
