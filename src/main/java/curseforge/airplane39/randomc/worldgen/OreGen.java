@@ -18,7 +18,6 @@ import net.minecraft.world.gen.stateprovider.SimpleBlockStateProvider;
 import static curseforge.airplane39.randomc.RandoMC.MOD_ID;
 import static curseforge.airplane39.randomc.init.ModBlocks.WHITE_DANDELION;
 
-@SuppressWarnings("ALL")
 public class OreGen {
     public static ConfiguredFeature<?, ?> SAPPHIRE_ORE_OVERWORLD = Feature.ORE
             .configure(new OreFeatureConfig(
@@ -33,7 +32,7 @@ public class OreGen {
     
     public static ConfiguredFeature<?, ?> WHITE_DANDELION_PATCH = /*register("patch_sunflower", (ConfiguredFeature)*/ Feature.RANDOM_PATCH.configure((new net.minecraft.world.gen.feature.RandomPatchFeatureConfig.Builder(new SimpleBlockStateProvider(WHITE_DANDELION.getDefaultState()), new SimpleBlockPlacer())).tries(64).cannotProject().build()).decorate(ConfiguredFeatures.Decorators.SPREAD_32_ABOVE).decorate(ConfiguredFeatures.Decorators.SQUARE_HEIGHTMAP).repeat(10);
 
-    @SuppressWarnings("depreciated")
+    @SuppressWarnings("deprecation")
     public static void registerWorldGenFeatures() {
         RegistryKey<ConfiguredFeature<?, ?>> oreSapphireOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
                 new Identifier(MOD_ID, "ore_sapphire_overworld"));
