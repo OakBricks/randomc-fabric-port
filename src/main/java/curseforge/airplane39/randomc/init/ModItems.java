@@ -30,7 +30,7 @@ public class ModItems {
 
     public static ToolItem SAPPHIRE_AXE = new CustomAxeItem(SapphireToolMaterial.INSTANCE, 0, 0, new Item.Settings().group(RandoMC.ITEM_GROUP));
 
-    public static ToolItem SAPPHITE_PICKAXE = new CustomPickaxeItem(SapphireToolMaterial.INSTANCE, -3, -1, new Item.Settings().group(RandoMC.ITEM_GROUP));
+    public static ToolItem SAPPHIRE_PICKAXE = new CustomPickaxeItem(SapphireToolMaterial.INSTANCE, -3, -1, new Item.Settings().group(RandoMC.ITEM_GROUP));
 
     public static final Item SALT = new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(1).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA,5), 3).build()).group(RandoMC.ITEM_GROUP));
 
@@ -49,7 +49,11 @@ public class ModItems {
 
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "sapphire_shovel"), SAPPHIRE_SHOVEL);
 
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "sapphire_axe"), SAPPHIRE_AXE);
+
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "sapphire_hoe"), SAPPHIRE_HOE);
+
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "sapphire_pickaxe"), SAPPHIRE_PICKAXE);
 
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "salt"), SALT);
 
