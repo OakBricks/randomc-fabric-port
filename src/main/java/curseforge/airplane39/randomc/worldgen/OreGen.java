@@ -30,9 +30,10 @@ public class OreGen {
             .range(new RangeDecoratorConfig(
                     // You can also use one of the other height providers if you don't want a uniform distribution
                     UniformHeightProvider.create(YOffset.aboveBottom(0), YOffset.fixed(256)))) // Inclusive min and max height
+            //.uniformRange(YOffset.aboveBottom(0), YOffset.fixed(256))
             .spreadHorizontally()
             .repeat(20); // Number of veins per chunk
-    
+
     public static ConfiguredFeature<?, ?> WHITE_DANDELION_PATCH = /*register("patch_sunflower", (ConfiguredFeature)*/ Feature.RANDOM_PATCH.configure((new RandomPatchFeatureConfig.Builder(new SimpleBlockStateProvider(WHITE_DANDELION.getDefaultState()), new SimpleBlockPlacer())).tries(48).cannotProject().whitelist(Set.of(Blocks.GRASS_BLOCK, Blocks.DIRT, Blocks.PODZOL, Blocks.COARSE_DIRT, Blocks.GRAVEL)).build()).decorate(ConfiguredFeatures.Decorators.SQUARE_TOP_SOLID_HEIGHTMAP).decorate(ConfiguredFeatures.Decorators.SQUARE_HEIGHTMAP).repeat(8);
 
     @SuppressWarnings("deprecation")
