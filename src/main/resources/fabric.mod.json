@@ -11,10 +11,12 @@
   ],
   "contact": {
     "homepage": "https://github.com/OakBricks/randomc-fabric-port",
-    "sources": "https://github.com/OakBricks/randomc-fabric-port"
+    "sources": "https://github.com/OakBricks/randomc-fabric-port",
+    "issues": "https://github.com/OakBricks/randomc-fabric-port/issues",
+    "discord": "https://discord.gg/mRmxt42K"
   },
   "custom": {
-    "Discord": ""
+    "discord": "https://discord.gg/mRmxt42K"
   },
 
   "license": "GPL-3.0",
