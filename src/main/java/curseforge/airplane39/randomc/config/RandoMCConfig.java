@@ -20,8 +20,8 @@ public class RandoMCConfig implements ConfigData {
         public int sapphire_ore_repeat = 20;
 
         @ConfigEntry.Gui.RequiresRestart
-        public int white_dandelion_patch_spawn_tries = 48;
+        public int white_dandelion_patch_spawn_tries = 16;
 
         @ConfigEntry.Gui.RequiresRestart
-        public int white_dandelion_patch_count = 8;
+        public int white_dandelion_patch_count = 3;
 }
