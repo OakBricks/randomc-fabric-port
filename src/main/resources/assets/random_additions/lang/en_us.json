@@ -18,5 +18,11 @@
   "item.random_additions.dough": "Dough",
   "block.random_additions.redwood_planks": "Redwood Planks",
   "block.random_additions.salt_block": "Salt Block",
-  "advancements.ooh_shiny.descr": "Get Your First Blinding Piece Of Sapphire."
+  "advancements.ooh_shiny.descr": "Get Your First Blinding Piece Of Sapphire.",
+  "text.autoconfig.random_additions.option.sapphire_ore_maxheight" : "Max Height for Sapphire Ore Generation",
+  "text.autoconfig.random_additions.option.sapphire_ore_minheight" : "Min Height for Sapphire Ore Generation",
+  "text.autoconfig.random_additions.option.sapphire_ore_vein_size" : "Vein Size of Sapphire Ore's Generation",
+  "text.autoconfig.random_additions.option.sapphire_ore_repeat" : "How Many Time Sapphire Ore's Generation is Repeated",
+  "text.autoconfig.random_additions.option.white_dandelion_patch_spawn_tries" : "How Many Times White Dandelion Patches Try To Spawn",
+  "text.autoconfig.random_additions.option.white_dandelion_patch_count" : "How Many White Dandelion Patches Are Possible in a Chunk"
 }

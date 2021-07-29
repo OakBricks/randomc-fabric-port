@@ -1,8 +1,13 @@
 package curseforge.airplane39.randomc;
 
+import curseforge.airplane39.randomc.config.RandoMCConfig;
 import curseforge.airplane39.randomc.init.ModBlocks;
 import curseforge.airplane39.randomc.init.ModItems;
 import curseforge.airplane39.randomc.worldgen.OreGen;
+import me.shedaniel.autoconfig.AutoConfig;
+import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
+import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
+import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;

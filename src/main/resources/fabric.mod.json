@@ -24,6 +24,9 @@
     ],
     "client": [
       "curseforge.airplane39.randomc.RandoMCClient"
+    ],
+    "modmenu": [
+      "curseforge.airplane39.randomc.compat.RandoMCModMenuCompat"
     ]
   },
   "mixins": [
