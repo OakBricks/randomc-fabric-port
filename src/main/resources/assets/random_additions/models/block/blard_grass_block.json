@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "random_additions:blocks/blard_grass_block_top",
+    "down": "random_additions:blocks/white_blard",
+    "north": "random_additions:blocks/blard_grass_block",
+    "east": "random_additions:blocks/blard_grass_block",
+    "south": "random_additions:blocks/blard_grass_block",
+    "west": "random_additions:blocks/blard_grass_block",
+    "particle": "random_additions:blocks/blard_grass_block"
+  }
+}
