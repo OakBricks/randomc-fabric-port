@@ -44,7 +44,7 @@ public class RandoMCWorldGenFeatures {
             .configure((new RandomPatchFeatureConfig.Builder(new SimpleBlockStateProvider(WHITE_DANDELION.getDefaultState()), new SimpleBlockPlacer()))
                     .tries(CONFIG.white_dandelion_patch_spawn_tries) // how many times the feature attempts to spawn in a chunk
                     .cannotProject()
-                    .whitelist(Set.of(Blocks.GRASS_BLOCK, Blocks.DIRT, Blocks.PODZOL, Blocks.COARSE_DIRT, Blocks.GRAVEL)) // block that are allowed to spawn the feature ontop of
+                    .whitelist(Set.of(Blocks.GRASS_BLOCK, Blocks.DIRT, Blocks.PODZOL, Blocks.COARSE_DIRT)) // block that are allowed to spawn the feature ontop of
                     .build())
             .decorate(ConfiguredFeatures.Decorators.SQUARE_TOP_SOLID_HEIGHTMAP)
             .repeat(CONFIG.white_dandelion_patch_count); // how many times this feature is going to be repeated
