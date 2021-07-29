@@ -35,7 +35,7 @@ public class RandoMCWorldGenFeatures {
                     CONFIG.sapphire_ore_vein_size)) // Vein size
             .range(new RangeDecoratorConfig(
                     // You can also use one of the other height providers if you don't want a uniform distribution
-                    UniformHeightProvider.create(YOffset.aboveBottom(CONFIG.sapphire_ore_minheight), YOffset.fixed(CONFIG.sapphire_ore_maxheight)))) // Inclusive min and max height
+                    UniformHeightProvider.create(YOffset.aboveBottom(CONFIG.sapphire_ore_minimum_height), YOffset.fixed(CONFIG.sapphire_ore_maximum_height)))) // Inclusive min and max height
             //.uniformRange(YOffset.aboveBottom(0), YOffset.fixed(256))
             .spreadHorizontally()
             .repeat(CONFIG.sapphire_ore_repeat); // Number of veins per chunk
@@ -46,7 +46,7 @@ public class RandoMCWorldGenFeatures {
                     .cannotProject()
                     .whitelist(Set.of(Blocks.GRASS_BLOCK, Blocks.DIRT, Blocks.PODZOL, Blocks.COARSE_DIRT)) // block that are allowed to spawn the feature ontop of
                     .build())
-            .decorate(ConfiguredFeatures.Decorators.SQUARE_TOP_SOLID_HEIGHTMAP)
+            .decorate(ConfiguredFeatures.Decorators.SPREAD_32_ABOVE).decorate(ConfiguredFeatures.Decorators.SQUARE_HEIGHTMAP)
             .repeat(CONFIG.white_dandelion_patch_count); // how many times this feature is going to be repeated
 
     @SuppressWarnings("deprecation")
