@@ -24,7 +24,7 @@ import java.util.Set;
 import static curseforge.airplane39.randomc.RandoMC.MOD_ID;
 import static curseforge.airplane39.randomc.init.ModBlocks.WHITE_DANDELION;
 
-public class OreGen {
+public class RandoMCWorldGenFeatures {
 
     public static final RandoMCConfig CONFIG = AutoConfig.register(RandoMCConfig.class, JanksonConfigSerializer::new).getConfig();
 
