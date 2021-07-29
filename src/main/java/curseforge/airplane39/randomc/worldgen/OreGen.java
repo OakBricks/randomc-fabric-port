@@ -40,7 +40,14 @@ public class OreGen {
             .spreadHorizontally()
             .repeat(CONFIG.sapphire_ore_repeat); // Number of veins per chunk
 
-    public static ConfiguredFeature<?, ?> WHITE_DANDELION_PATCH = /*register("patch_sunflower", (ConfiguredFeature)*/ Feature.RANDOM_PATCH.configure((new RandomPatchFeatureConfig.Builder(new SimpleBlockStateProvider(WHITE_DANDELION.getDefaultState()), new SimpleBlockPlacer())).tries(CONFIG.white_dandelion_patch_spawn_tries).cannotProject().whitelist(Set.of(Blocks.GRASS_BLOCK, Blocks.DIRT, Blocks.PODZOL, Blocks.COARSE_DIRT, Blocks.GRAVEL)).build()).decorate(ConfiguredFeatures.Decorators.SQUARE_TOP_SOLID_HEIGHTMAP).decorate(ConfiguredFeatures.Decorators.SQUARE_HEIGHTMAP).repeat(CONFIG.white_dandelion_patch_count);
+    public static ConfiguredFeature<?, ?> WHITE_DANDELION_PATCH = Feature.RANDOM_PATCH
+            .configure((new RandomPatchFeatureConfig.Builder(new SimpleBlockStateProvider(WHITE_DANDELION.getDefaultState()), new SimpleBlockPlacer()))
+                    .tries(CONFIG.white_dandelion_patch_spawn_tries)
+                    .cannotProject()
+                    .whitelist(Set.of(Blocks.GRASS_BLOCK, Blocks.DIRT, Blocks.PODZOL, Blocks.COARSE_DIRT, Blocks.GRAVEL))
+                    .build())
+            .decorate(ConfiguredFeatures.Decorators.SQUARE_TOP_SOLID_HEIGHTMAP)
+            .repeat(CONFIG.white_dandelion_patch_count);
 
     @SuppressWarnings("deprecation")
     public static void registerWorldGenFeatures() {
