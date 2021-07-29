@@ -41,11 +41,11 @@
   "depends": {
     "fabricloader": ">=0.11.6",
     "fabric": "*",
-    "minecraft": "1.17.x",
+    "minecraft": ">=1.17.1",
     "java": ">=16",
     "cloth-config2": "*"
   },
   "suggests": {
-    "modmenu": "*"
+    "modmenu": ">=2.0.3"
   }
 }
