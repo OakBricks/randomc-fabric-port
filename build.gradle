@@ -76,8 +76,8 @@ java {
 	withSourcesJar()
 }
 
-minecraft {
-	accessWidener =  file("src/main/resources/random_additions.accesswidener")
+loom {
+	accessWidenerPath =  file("src/main/resources/random_additions.accesswidener")
 }
 
 jar {
