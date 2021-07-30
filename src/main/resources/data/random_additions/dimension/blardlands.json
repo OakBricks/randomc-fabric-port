@@ -1,0 +1,45 @@
+{
+  "type": "random_additions:blardlands",
+  "generator": {
+    "biome_source": {
+      "seed": 0,
+      "large_biomes": false,
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          {
+            "parameters": {},
+            "biome": "blardlands_plains"
+          },
+          {
+            "parameters": {},
+            "biome": "blardlands_forest"
+          },
+          {
+            "parameters": {},
+            "biome": "ocean"
+          }
+        }
+      ],
+      "altitude_noise": {
+        "firstOctave": -9,
+        "amplitudes": [1.0, 2.0]
+      },
+      "humidity_noise": {
+        "firstOctave": -9,
+        "amplitudes": [1.0, 2.0]
+      },
+      "temperature_noise": {
+        "firstOctave": -9,
+        "amplitudes": [1.0, 2.0]
+      },
+      "weirdness_noise": {
+        "firstOctave": -9,
+        "amplitudes": [1.0, 2.0]
+      }
+    },
+    "seed": 0,
+    "settings": "minecraft:overworld",
+    "type": "minecraft:noise"
+  }
+}

@@ -23,7 +23,7 @@ public class ModBlocks {
 
     public static final Block SAPPHIRE_ORE = new SapphireOreBlock(FabricBlockSettings.of(Material.STONE, MapColor.STONE_GRAY).strength(4.0f, 10.0f).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().sounds(BlockSoundGroup.STONE));
 
-    public static final Block WHITE_BLARD = new WhiteBlardBlock(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).strength(4.0f, 10.0f).sounds(BlockSoundGroup.STONE).noCollision());
+    public static final Block WHITE_BLARD = new WhiteBlardBlock(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).strength(4.0f, 10.0f).sounds(BlockSoundGroup.STONE)/*.noCollision()*/);
 
     public static final Block BLARD_GRASS_BLOCK = new BlardGrass(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK));
 
