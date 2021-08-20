@@ -41,11 +41,6 @@ public class RandoMC implements ModInitializer {
 		ModItems.registerItems();
 		LOGGER.debug("Registered Items");
 
-		//CustomPortalApiRegistry.addPortal(ModBlocks.WHITE_BLARD, new Identifier(MOD_ID, "blardlands"), 230, 233, 194);
-
-		CustomPortalBuilder.beginPortal().destDimID(new Identifier(MOD_ID, "blardlands")).frameBlock(ModBlocks.WHITE_BLARD).tintColor(230, 233, 194).ignitionSource(PortalIgnitionSource.FIRE).registerPortal();
-		LOGGER.debug("Registered Blardlands Portal");
-
 		LOGGER.info("RandoMC has initialized");
 		LOGGER.debug("Built against Yarn 1.17+build.13, Fabric Loader 0.11.6, Minecraft 1.17, Fabric API 0.36.0+1.17");
 		LOGGER.debug("RandoMC Fabric was made by OakBricks/EnchantedSpade and airplane39");
