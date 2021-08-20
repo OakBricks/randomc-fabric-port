@@ -9,7 +9,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "random_additions:sapphire_ore",
+              "name": "random_additions:sapphire",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
